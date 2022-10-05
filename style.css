@@ -1,0 +1,236 @@
+
+
+.container {
+    width: 100%;
+}
+
+.upper {
+    height: 40px;
+    background-color: hsl(240, 77%, 37%);
+    align-items: center;
+}
+
+.upperContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.upperFront {
+    display: inline-block;
+}
+
+.upperBack {
+    display: inline-block;
+}
+
+.mailIcon {
+    height: 12px;
+    padding-right: 5px;
+}
+
+.mailText {
+    display: inline-block;
+    font-size:x-small;
+    color: white;
+    padding-right: 17px;
+}
+
+.phoneIcon {
+    height: 13px;
+    padding-right: 5px;
+}
+
+.phoneText {
+    display: inline-block;
+    font-size:x-small;
+    color: white;
+}
+
+.twiter {
+    height: 12px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.instagram {
+    height: 12px;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.slideText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
+
+.color {
+    height: 90px;
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.us {
+    height: 400px;
+}
+
+.ourVision {
+    margin: 100px 0 0 120px;
+    display: inline-block;
+    width: 200px;
+}
+
+.usImg {
+    width: 60px;
+    height: 60px;
+}
+
+.usText {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.usText2 {
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 80px;
+}
+
+.ourMission {
+    display: inline-block;
+    margin: 100px 0 0 150px;
+    width: 320px;
+}
+
+.ourValue {
+    margin: 100px 0 0 150px;
+    display: inline-block;
+    width: 230px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    background-image: url('/Website Datas/others/ourteam-bg.jpg');
+}
+
+.welText {
+    color: white;
+}
+
+.welTextContain {
+    margin: 40px 130px 0 130px;
+}
+
+.welText2 {
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+
+.readMore {
+    margin-top: 40px;
+    font-size: small;
+    color: white;
+    background-color: #1414ab;
+    border: none;
+    height: 50px;
+    width: 110px;
+}
+
+.ourProject {
+    margin: 80px 0 80px 0;
+}
+
+.ourProText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.proImg1 {
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+
+.proImgCon1, .proImgCon2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.summary {
+    width: 100%;
+    height: 300px;
+    background-color: #2b2b2b;
+}
+
+.sumTextCon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sumText1 {
+    display: inline-block;
+    color: white;
+    margin: 80px 150px 10px 0;
+}
+
+.sumTextCon2 {
+    margin: 30px 0 80px 165px;
+}
+
+.sumText2 {
+    color: white;
+    font-size: smaller;
+    width: 400px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.sumText3 {
+    color: white;
+    display: inline-block;
+    width: 200px;
+    margin-right: 18px;
+}
+
+.toInline {
+    display: inline-block;
+    font-size: smaller;
+}
+
+.sumText4 {
+    display: inline-block;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #1414ab;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: smaller;
+    align-items: center;
+}
